@@ -49,6 +49,7 @@ namespace Lets_go
 
         static string Znajdz(string tekst)
         {
+            tekst = " " + tekst + " ";
             int y = 0;
             string wyraz = "";
             string najlepszywyraz = "";
@@ -114,7 +115,7 @@ namespace Lets_go
         }
         static void Main(string[] args)
         {
-            string tekst = "ba bb bx bxbbxbx";
+            string tekst = "aa-bbb?ppp**yyt";
             Console.WriteLine(Znajdz(tekst));
         }
     }
