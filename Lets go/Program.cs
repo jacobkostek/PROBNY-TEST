@@ -7,7 +7,7 @@ namespace Lets_go
         static int CzyLitera(char a)
         {
             string literki = "Bab";
-            //literki = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
+            literki = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
             int y = 0;
             while (y<literki.Length)
             {
@@ -30,7 +30,7 @@ namespace Lets_go
         static int CzySamogloska(char a)
         {
             string literki = "a";
-            //literki = "AaEeYyUuIiOo";
+            literki = "AaEeYyUuIiOo";
             int y = 0;
             while (y < literki.Length)
             {
@@ -114,7 +114,7 @@ namespace Lets_go
         }
         static void Main(string[] args)
         {
-            string tekst = "ba ab ba bbb";
+            string tekst = "ba bb bx bxbbxbx";
             Console.WriteLine(Znajdz(tekst));
         }
     }
